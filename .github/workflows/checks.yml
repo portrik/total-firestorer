@@ -58,17 +58,17 @@ jobs:
                     cache: 'pnpm'
 
             - run: pnpm install
-            - run: CI=TRUE pnpm test
+            - run: CI=TRUE xvfb-run -a pnpm test
 
             - uses: codecov/codecov-action@v4.5.0
               name: Upload code coverage
               with:
                 token: ${{ secrets.CODECOV_TOKEN }}
                 directory: ./coverage
-                fail_ci_if_error: true
+                fail_ci_if_error: false
 
             - uses: codecov/test-results-action@v1
               name: Upload test results
               with:
                 token: ${{ secrets.CODECOV_TOKEN }}
-                fail_ci_if_error: true
+                fail_ci_if_error: false
