@@ -30,7 +30,7 @@
     "watch-tests": "tsc -p . -w --outDir out",
     "pretest": "pnpm run compile-tests && pnpm run compile && pnpm run lint",
     "check-types": "tsc --noEmit",
-    "lint:eslint": "eslint src --ext ts",
+    "lint:eslint": "eslint src",
     "lint:biome": "biome lint",
     "lint": "pnpm run lint:eslint && pnpm run lint:biome",
     "test": "vscode-test --coverage",
@@ -38,6 +38,7 @@
   },
   "devDependencies": {
     "@biomejs/biome": "^1.8.3",
+    "@stylistic/eslint-plugin": "^2.6.2",
     "@types/mocha": "^10.0.7",
     "@types/node": "20.x",
     "@types/vscode": "^1.92.0",
@@ -49,6 +50,7 @@
     "eslint": "^9.0.0",
     "mocha-junit-reporter": "^2.2.1",
     "npm-run-all2": "^6.0.0",
-    "typescript": "^5.4.5"
+    "typescript": "^5.4.5",
+    "typescript-eslint": "^8.0.1"
   }
 }
