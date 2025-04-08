@@ -33,7 +33,7 @@ importers:
         specifier: ^0.0.10
         version: 0.0.10
       '@vscode/test-electron':
-        specifier: ^2.4.0
+        specifier: ^2.4.1
         version: 2.4.1
       esbuild:
         specifier: ^0.25.0
