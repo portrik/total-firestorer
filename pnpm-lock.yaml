@@ -9,49 +9,49 @@ importers:
   .:
     devDependencies:
       '@biomejs/biome':
-        specifier: ^1.8.3
+        specifier: 1.9.4
         version: 1.9.4
       '@stylistic/eslint-plugin':
-        specifier: ^2.6.2
+        specifier: 2.13.0
         version: 2.13.0(eslint@9.19.0)(typescript@5.8.2)
       '@types/mocha':
-        specifier: ^10.0.7
+        specifier: 10.0.10
         version: 10.0.10
       '@types/node':
-        specifier: 20.x
+        specifier: 20.17.16
         version: 20.17.16
       '@types/vscode':
-        specifier: ^1.96.0
+        specifier: 1.96.0
         version: 1.96.0
       '@typescript-eslint/eslint-plugin':
-        specifier: ^8.22.0
+        specifier: 8.22.0
         version: 8.22.0(@typescript-eslint/parser@8.22.0(eslint@9.19.0)(typescript@5.8.2))(eslint@9.19.0)(typescript@5.8.2)
       '@typescript-eslint/parser':
-        specifier: ^8.22.0
+        specifier: 8.22.0
         version: 8.22.0(eslint@9.19.0)(typescript@5.8.2)
       '@vscode/test-cli':
-        specifier: ^0.0.10
+        specifier: 0.0.10
         version: 0.0.10
       '@vscode/test-electron':
-        specifier: ^2.4.1
+        specifier: 2.4.1
         version: 2.4.1
       esbuild:
-        specifier: ^0.25.0
+        specifier: 0.25.0
         version: 0.25.0
       eslint:
-        specifier: ^9.19.0
+        specifier: 9.19.0
         version: 9.19.0
       mocha-junit-reporter:
-        specifier: ^2.2.1
+        specifier: 2.2.1
         version: 2.2.1(mocha@10.7.0)
       npm-run-all2:
-        specifier: ^6.0.0
+        specifier: 6.2.6
         version: 6.2.6
       typescript:
-        specifier: ^5.8.2
+        specifier: 5.8.2
         version: 5.8.2
       typescript-eslint:
-        specifier: ^8.22.0
+        specifier: 8.22.0
         version: 8.22.0(eslint@9.19.0)(typescript@5.8.2)
 
 packages:
